@@ -1,0 +1,81 @@
+body {
+    background-color: #242038;
+  }
+  
+  h1 {
+      text-decoration: none;
+      font-family: "Abril Fatface", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #F7DBA7;
+      background-color: #A13793;
+      font-size: 300%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin-inline: auto;
+      padding: 10px;
+      width: 300px;
+      }
+  
+  .displaySong {
+    display: flex;
+    padding: 1%;
+    max-width: fit-content;
+    /* border: red 4px solid; */
+  }
+  
+  .display {
+    max-width: fit-content;
+    margin-inline: auto;
+    /* border: blue 4px solid; */
+  }
+  
+  img {
+    overflow: hidden;
+    width: 150px;
+    object-fit: cover;
+    border: 4px solid #653083;
+    margin-right: 5%;
+  }
+  
+  p {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F7ECE1;
+    font-size: large;
+  }
+  
+  input {
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+  
+  }
+  
+  .inputs {
+    margin-inline: auto;
+    margin-top: 20px;
+  }
+  
+  button {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F7ECE1;
+    background-color: #A13793;
+    border-radius: 10px;
+    padding: 3%;
+    font-size: x-large;
+    margin: 20px;
+    border: none;
+    padding: 30px;
+  }
+  
+  .btn {
+    text-align: center;
+  }
